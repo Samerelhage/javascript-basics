@@ -1,4 +1,4 @@
-# JavaScript Basics 1 - Variables, Functions, and Branching
+    #             JavaScript Basics 1 - Variables, Functions, and Branching
 
 ## Step 1 : Variables
 
