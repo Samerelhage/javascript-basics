@@ -1,4 +1,4 @@
-# Javascript Course
+# Javascript Course - Samer
 
 ## Step 1: Preparation
 
