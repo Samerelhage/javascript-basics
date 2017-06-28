@@ -8,5 +8,42 @@
   <form>
     <label for="name">Your name  : </label><input type="text" name="name" value="" id="name"/>
   </form>
+  <div id="mydiv">
+    <h1 class="example"> hello</h1>
+    <p class="example"> how are you</p>
+  </div>
+  <script>
+
+
+
+  function myfunction(){
+
+    var Mydiv = document.querySelector("#mydiv");
+    var myexample = Mydiv.querySelector(".example");
+    
+ 
+  
+    var Mydiv = document.getElementById("mydiv");
+    var input = document.getElementById("name");
+    var value = input.value;
+    mydiv.innerHTML = value;
+
+    
+
+  }
+document.querySelector("#mydiv").addEventListener("blur",myfunction);
+
+   //soit une variable "Mydiv" qui est l element appelle "myDiv" dans le document//
+    //soit une variable "input" qui est l element appelle "name" dans le document//
+    //soit une variable "value" qui est la valeur de "input"//
+    //change la propriete "innerHTML" de "MyDiv".//
+    
+    //suppose a variable input that is the input element called "name" in the document//
+    //suppose a variable value that is the value of input//
+    //change innerHTML of MyDiv to be value//
+  </script>
 </body>
 </html>
+
+
+
